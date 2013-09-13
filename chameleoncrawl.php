@@ -20,6 +20,14 @@ $CHAM_CONFIG['site_root_path'] = "/user/".$params->installation_name."/";
 $CHAM_CONFIG['source_root_path'] = getcwd();
 $CHAM_CONFIG['data_dir_path'] = $CHAM_CONFIG['data_dir_root'] . $params->installation_name.'/';
 
+//DEBUG
+//Uncomment out next section if logs should go to filesystem instead of into the database
+/*
+$CHAM_CONFIG['log_location'] = $CHAM_CONFIG['data_dir_path'] . 'crawler.log';
+$logger = Logger::getInstance($CHAM_CONFIG['log_location']);
+*/
+
+//DEBUG
 //echo Utils::varDumpToString($params);
 //echo Utils::varDumpToString($CHAM_CONFIG);
 
