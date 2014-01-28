@@ -10,3 +10,4 @@ $CHAM_CONFIG['db_password']         = 'generic_crawl_password';
 $CHAM_CONFIG['db_type']             = 'mysql';
 
 $CHAM_CONFIG['table_prefix']        = 'tu_';
+$CHAM_CONFIG['site_root_path']		= "/";
