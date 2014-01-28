@@ -10,4 +10,16 @@ $CHAM_CONFIG['db_password']         = 'generic_crawl_password';
 $CHAM_CONFIG['db_type']             = 'mysql';
 
 $CHAM_CONFIG['table_prefix']        = 'tu_';
+
+$CHAM_CONFIG['debug']        		= true;
+$CHAM_CONFIG['cache_pages']         = false;
+
+$CHAM_CONFIG['mandrill_api_key']    = 'mandrill_api_key';
+
 $CHAM_CONFIG['site_root_path']		= "/";
+
+$CHAM_CONFIG['THINKUP_VERSION']     = '2.0-beta.10';
+
+ini_set('error_reporting', E_ALL || E_STRICT);
+ini_set('display_errors', TRUE);
+ini_set('display_startup_errors', TRUE);
