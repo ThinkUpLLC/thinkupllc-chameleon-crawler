@@ -20,6 +20,8 @@ $CHAM_CONFIG['site_root_path']		= "/";
 
 $CHAM_CONFIG['THINKUP_VERSION']     = '2.0-beta.10';
 
+$THINKUP_CFG['thinkupllc_endpoint']  = 'https://www.thinkup.com/join/user/';
+
 ini_set('error_reporting', E_ALL || E_STRICT);
 ini_set('display_errors', TRUE);
 ini_set('display_startup_errors', TRUE);
