@@ -18,8 +18,6 @@ $CHAM_CONFIG['mandrill_api_key']    = 'mandrill_api_key';
 
 $CHAM_CONFIG['site_root_path']		= "/";
 
-$CHAM_CONFIG['THINKUP_VERSION']     = '2.0-beta.10';
-
 $CHAM_CONFIG['thinkupllc_endpoint']  = 'https://www.thinkup.com/join/user/';
 
 ini_set('error_reporting', E_ALL || E_STRICT);
