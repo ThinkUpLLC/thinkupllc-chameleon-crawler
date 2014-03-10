@@ -16,7 +16,7 @@ $CHAM_CONFIG['cache_pages']         = false;
 
 $CHAM_CONFIG['mandrill_api_key']    = 'mandrill_api_key';
 
-$CHAM_CONFIG['site_root_path']		= "/";
+$CHAM_CONFIG['site_root_path']		= "/installation/{user}/";
 
 $CHAM_CONFIG['thinkupllc_endpoint']  = 'https://www.thinkup.com/join/user/';
 
