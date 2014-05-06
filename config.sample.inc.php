@@ -1,4 +1,11 @@
 <?php
+$custom_config = 'thinkupllc-config/config.inc.php';
+if (file_exists($custom_config)) {
+    require_once($custom_config);
+    if (isset($THINKUP_CFG['thinkupllc_email_tout'])) {
+        $CHAM_CONFIG['thinkupllc_email_tout'] = $THINKUP_CFG['thinkupllc_email_tout'];
+    }
+}
 
 $CHAM_CONFIG['thinkup_username']    = 'thinkup_username_with_crawl_rights@example.com';
 $CHAM_CONFIG['thinkup_password']    = 'thinkup_password';
