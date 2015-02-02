@@ -17,7 +17,7 @@ $CHAM_CONFIG['db_name'] = $params->db_name;
 $CHAM_CONFIG['db_socket'] = $params->db_socket;
 $CHAM_CONFIG['db_port'] = $params->db_port;
 $CHAM_CONFIG['source_root_path'] = getcwd();
-$CHAM_CONFIG['data_dir_path'] = $CHAM_CONFIG['data_dir_root'] . $params->installation_name.'/';
+$CHAM_CONFIG['datadir_path'] = $CHAM_CONFIG['data_dir_root'] . $params->installation_name.'/';
 if (strpos($CHAM_CONFIG['site_root_path'], '{user}') !== false ) {
 	$CHAM_CONFIG['site_root_path'] = str_replace('{user}', $params->installation_name, $CHAM_CONFIG['site_root_path']);
 }
